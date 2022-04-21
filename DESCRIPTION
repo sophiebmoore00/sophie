@@ -1,0 +1,17 @@
+Package: sophie
+Title: My personal package with helped functions
+Version: 0.0.0.9000
+Authors@R: 
+    person("Sophie", "Moore", , "smoore37@calpoly.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: I have tasks I use a lot. So I said let's wrap 'em in a package!
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    magrittr
